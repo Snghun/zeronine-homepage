@@ -58,7 +58,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">0.9%</h1>
           <div className="text-2xl md:text-3xl mb-4 opacity-90">주식회사 영점구퍼센트</div>
           <div className="text-lg md:text-xl italic mb-8 max-w-2xl mx-auto leading-relaxed opacity-90">
-            "인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다"<br />
+            &ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다&rdquo;<br />
             <span className="text-base not-italic">- Jeremy Rifkin</span>
           </div>
           <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg">더 알아보기</a>
@@ -75,7 +75,7 @@ export default function Home() {
               <p>주식회사 영점구퍼센트는 창의적 아이디어의 가치를 알아보고, 이를 실현·확산시키는 연결자이자 실천자로써 역할을 하기 위해 설립되었습니다.</p>
               <p>문제의 본질을 꿰뚫어보고, 새로운 해결책을 제시하며, 미래를 예측하고, 조직과 사회의 변화를 주도합니다. 컨설팅부터 직간접 투자를 넘어, 때론 사업이해관계자로 BM 개발 및 운영에 직접 참여합니다.</p>
               <blockquote className="border-l-4 border-indigo-400 pl-4 italic text-gray-600 my-8">
-                "빠르게 변화하는 세상을 두려워 하기보다는 변화하지 않는 나를 두려워 하자."
+                &ldquo;빠르게 변화하는 세상을 두려워 하기보다는 변화하지 않는 나를 두려워 하자.&rdquo;
               </blockquote>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
