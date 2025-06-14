@@ -5,7 +5,6 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/zeronine-homepage',
-  assetPrefix: '/zeronine-homepage/',
 };
 
 module.exports = nextConfig; 
