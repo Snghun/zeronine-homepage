@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/zeronine-homepage',
+  basePath: process.env.NODE_ENV === 'production' ? '/zeronine-homepage' : '',
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
 };
 
 export default nextConfig;
