@@ -63,7 +63,6 @@ export default function Home() {
           </div>
           <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg">더 알아보기</a>
         </div>
-        {/* SVG Grain 효과는 추후 컴포넌트화 가능 */}
       </section>
 
       {/* About Section */}
