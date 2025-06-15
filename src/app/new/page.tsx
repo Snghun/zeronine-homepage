@@ -8,9 +8,12 @@ export default function NewHome() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
-        document.querySelector(this.getAttribute('href')!)?.scrollIntoView({
-          behavior: 'smooth'
-        });
+        const href = this.getAttribute('href');
+        if (href) {
+          document.querySelector(href)?.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
       });
     });
 
@@ -47,7 +50,7 @@ export default function NewHome() {
   }, []);
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       {/* Header */}
       <header className="header fixed top-0 w-full bg-white/95 backdrop-blur-md z-50 py-4 transition-all duration-300">
         <nav className="nav max-w-7xl mx-auto px-8 flex justify-between items-center">
@@ -74,7 +77,7 @@ export default function NewHome() {
             창의적 아이디어의 가치를 발견하고,<br />세상을 변화시키는 실천적 파트너
           </p>
           <p className="text-xl italic mb-2 opacity-80">
-            "인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다."
+            &ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다.&rdquo;
           </p>
           <p className="text-lg opacity-70 mb-12">- Jeremy Rifkin</p>
           <a href="#about" className="inline-block px-8 py-4 bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-full font-semibold hover:bg-white/30 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
@@ -264,10 +267,10 @@ export default function NewHome() {
           </div>
           <p>© 2024 주식회사 영점구퍼센트. All rights reserved.</p>
           <p className="mt-4 text-gray-400">
-            "빠르게 변화하는 세상을 두려워하기보다는 변화하지 않는 나를 두려워하자."
+            &ldquo;빠르게 변화하는 세상을 두려워하기보다는 변화하지 않는 나를 두려워하자.&rdquo;
           </p>
         </div>
       </footer>
-    </main>
+    </div>
   );
 } 
