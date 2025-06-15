@@ -54,7 +54,7 @@ export default function NewPage() {
       {/* Header */}
       <header className="header fixed top-0 w-full bg-white/95 backdrop-blur z-50 py-4 transition-all">
         <nav className="max-w-screen-xl mx-auto flex justify-between items-center px-8">
-          <div className="text-2xl font-black bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent select-none">0.9%</div>
+          <div className="text-2xl font-black bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent select-none">0.9%</div>
           <ul className="hidden md:flex gap-8 list-none">
             <li><a href="#about" className="hover:text-indigo-500 transition-colors">회사소개</a></li>
             <li><a href="#capabilities" className="hover:text-indigo-500 transition-colors">핵심역량</a></li>
