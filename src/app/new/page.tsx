@@ -68,7 +68,7 @@ export default function NewPage() {
       <section className="min-h-screen flex items-center relative overflow-hidden bg-gradient-to-br from-blue-500 to-teal-400">
         <div className="absolute inset-0 w-[200%] h-[200%] opacity-30 pointer-events-none" style={{background: `url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grain\" width=\"100\" height=\"100\" patternUnits=\"userSpaceOnUse\"><circle cx=\"25\" cy=\"25\" r=\"1\" fill=\"white\" opacity=\"0.1\"/><circle cx=\"75\" cy=\"75\" r=\"1\" fill=\"white\" opacity=\"0.1\"/><circle cx=\"50\" cy=\"10\" r=\"0.5\" fill=\"white\" opacity=\"0.15\"/><circle cx=\"20\" cy=\"80\" r=\"0.5\" fill=\"white\" opacity=\"0.15\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grain)\"/></svg>')`, animation: 'float 20s ease-in-out infinite'}}></div>
         <div className="max-w-screen-xl mx-auto px-8 z-10 relative text-white">
-          <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight">혁신을 현실로 만드는<br />통찰의 힘</h1>
+          <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight">주식회사 영점구퍼센트<br />혁신을 현실로 만드는 통찰의 힘</h1>
           <p className="text-xl md:text-2xl mb-6 font-light opacity-90">창의적 아이디어의 가치를 발견하고,<br />세상을 변화시키는 실천적 파트너</p>
           <p className="text-base md:text-lg italic mb-1 opacity-80">&ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다.&rdquo;</p>
           <p className="text-sm opacity-70 mb-8">- Jeremy Rifkin</p>
