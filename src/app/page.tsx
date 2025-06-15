@@ -55,11 +55,11 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="hero flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-400 via-purple-500 to-pink-300 relative pt-24">
         <div className="container mx-auto text-center relative z-10">
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">0.9%</h1>
-          <div className="text-2xl md:text-3xl mb-4 opacity-90">주식회사 영점구퍼센트</div>
-          <div className="text-lg md:text-xl italic mb-8 max-w-2xl mx-auto leading-relaxed opacity-90">
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg text-gray-800 dark:text-gray-100">0.9%</h1>
+          <div className="text-2xl md:text-3xl mb-4 opacity-90 text-gray-700 dark:text-gray-200">주식회사 영점구퍼센트</div>
+          <div className="text-lg md:text-xl italic mb-8 max-w-2xl mx-auto leading-relaxed opacity-90 text-gray-600 dark:text-gray-300">
             &ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다&rdquo;<br />
-            <span className="text-base not-italic">- Jeremy Rifkin</span>
+            <span className="text-base not-italic text-gray-500 dark:text-gray-400">- Jeremy Rifkin</span>
           </div>
           <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg">더 알아보기</a>
         </div>
