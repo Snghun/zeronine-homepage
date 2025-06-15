@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/zeronine-homepage',
+  assetPrefix: '/zeronine-homepage/',
   trailingSlash: true,
 };
 
