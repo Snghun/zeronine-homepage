@@ -230,7 +230,7 @@ export default function NewPage() {
       <footer className="bg-gray-900 text-white py-12 text-center">
         <div className="max-w-screen-xl mx-auto px-8">
           <div className="text-2xl font-black mb-2 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">0.9%</div>
-          <p>© 2024 주식회사 영점구퍼센트. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 주식회사 영점구퍼센트. All rights reserved.</p>
           <p className="mt-4 opacity-70">&ldquo;빠르게 변화하는 세상을 두려워하기보다는 변화하지 않는 나를 두려워하자.&rdquo;</p>
         </div>
       </footer>
