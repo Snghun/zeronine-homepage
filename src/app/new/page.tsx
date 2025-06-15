@@ -168,7 +168,7 @@ export default function Home() {
             </div>
             <div className="fade-in">
               <div className="relative">
-                <div className="w-full h-96 bg-indigo-100 rounded-lg animate-float"></div>
+                <div className="w-full h-96 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-lg shadow-lg"></div>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {capabilities.map((capability, index) => (
-              <div key={index} className="fade-in bg-white p-8 rounded-lg shadow-lg">
+              <div key={index} className="fade-in bg-white p-8 rounded-lg shadow-lg hover-card">
                 <div className="text-4xl mb-4">{capability.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{capability.title}</h3>
                 <p className="text-gray-600">{capability.description}</p>
@@ -207,8 +207,8 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             {businesses.map((business, index) => (
-              <div key={index} className="fade-in">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{business.title}</h3>
+              <div key={index} className="fade-in hover-card">
+                <h3 className="text-2xl font-bold gradient-text mb-4">{business.title}</h3>
                 <p className="text-gray-600 mb-6">{business.description}</p>
                 <ul className="space-y-3">
                   {business.features.map((feature, featureIndex) => (
@@ -235,7 +235,7 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {contacts.map((contact, index) => (
-              <div key={index} className="fade-in text-center">
+              <div key={index} className="fade-in text-center hover-card bg-white p-6 rounded-lg shadow-lg">
                 <div className="text-4xl mb-4">{contact.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{contact.title}</h3>
                 <p className="text-gray-600">{contact.value}</p>
