@@ -61,7 +61,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center relative overflow-hidden bg-gradient-to-br from-indigo-400 to-purple-500">
+      <section className="min-h-screen flex items-center relative overflow-hidden bg-gradient-to-br from-blue-500 to-teal-400">
         <div className="absolute inset-0 w-[200%] h-[200%] opacity-30 pointer-events-none" style={{background: `url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grain\" width=\"100\" height=\"100\" patternUnits=\"userSpaceOnUse\"><circle cx=\"25\" cy=\"25\" r=\"1\" fill=\"white\" opacity=\"0.1\"/><circle cx=\"75\" cy=\"75\" r=\"1\" fill=\"white\" opacity=\"0.1\"/><circle cx=\"50\" cy=\"10\" r=\"0.5\" fill=\"white\" opacity=\"0.15\"/><circle cx=\"20\" cy=\"80\" r=\"0.5\" fill=\"white\" opacity=\"0.15\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grain)\"/></svg>')`, animation: 'float 20s ease-in-out infinite'}}></div>
         <div className="max-w-screen-xl mx-auto px-8 z-10 relative text-white">
           <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight">혁신을 현실로 만드는<br />통찰의 힘</h1>
@@ -75,7 +75,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-8">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent fade-in">0.9%와 함께하는 혁신</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent fade-in">0.9%와 함께하는 혁신</h2>
           <div className="grid md:grid-cols-2 gap-8 mt-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition-transform fade-in">
               <div className="text-base md:text-lg text-gray-600 leading-relaxed text-justify">
@@ -94,7 +94,7 @@ export default function Home() {
       {/* Capabilities Section */}
       <section id="capabilities" className="py-20 bg-white">
         <div className="max-w-screen-xl mx-auto px-8">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent fade-in">핵심 역량</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent fade-in">핵심 역량</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
             <div className="bg-gradient-to-br from-pink-300 to-pink-500 text-white p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform fade-in">
               <div className="text-4xl mb-2">🔍</div>
@@ -123,11 +123,11 @@ export default function Home() {
       {/* Business Section */}
       <section id="business" className="py-20 bg-gray-50">
         <div className="max-w-screen-xl mx-auto px-8">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent fade-in">사업 분야</h2>
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent fade-in">사업 분야</h2>
           <div className="grid md:grid-cols-2 gap-8 mt-8">
             {/* AI 사업부 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform fade-in">
-              <div className="p-8 bg-gradient-to-r from-indigo-400 to-purple-500 text-white">
+              <div className="p-8 bg-gradient-to-r from-blue-500 to-teal-400 text-white">
                 <div className="text-xl font-bold mb-1">AI 사업부</div>
                 <div className="text-sm opacity-90">인공지능으로 미래를 설계합니다</div>
               </div>
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
             {/* IP 사업부 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform fade-in">
-              <div className="p-8 bg-gradient-to-r from-indigo-400 to-purple-500 text-white">
+              <div className="p-8 bg-gradient-to-r from-blue-500 to-teal-400 text-white">
                 <div className="text-xl font-bold mb-1">IP 사업부</div>
                 <div className="text-sm opacity-90">창작물의 가치를 극대화합니다</div>
               </div>
@@ -163,7 +163,7 @@ export default function Home() {
             </div>
             {/* MD 사업부 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform fade-in">
-              <div className="p-8 bg-gradient-to-r from-indigo-400 to-purple-500 text-white">
+              <div className="p-8 bg-gradient-to-r from-blue-500 to-teal-400 text-white">
                 <div className="text-xl font-bold mb-1">MD 사업부</div>
                 <div className="text-sm opacity-90">상품화부터 유통까지 원스톱 서비스</div>
               </div>
@@ -181,7 +181,7 @@ export default function Home() {
             </div>
             {/* 컨설팅 & 투자 */}
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform fade-in">
-              <div className="p-8 bg-gradient-to-r from-indigo-400 to-purple-500 text-white">
+              <div className="p-8 bg-gradient-to-r from-blue-500 to-teal-400 text-white">
                 <div className="text-xl font-bold mb-1">컨설팅 & 투자</div>
                 <div className="text-sm opacity-90">0.9% 네트워크의 핵심</div>
               </div>
@@ -202,7 +202,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gradient-to-br from-indigo-400 to-purple-500 text-white">
+      <section id="contact" className="py-20 bg-gradient-to-br from-blue-500 to-teal-400 text-white">
         <div className="max-w-screen-xl mx-auto px-8">
           <h2 className="text-3xl md:text-4xl font-black text-center mb-12 text-white fade-in">연락처</h2>
           <div className="grid md:grid-cols-3 gap-8 mt-8">
@@ -225,7 +225,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 text-center">
         <div className="max-w-screen-xl mx-auto px-8">
-          <div className="text-2xl font-black mb-2 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">0.9%</div>
+          <div className="text-2xl font-black mb-2 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">0.9%</div>
           <p>© 2024 주식회사 영점구퍼센트. All rights reserved.</p>
           <p className="mt-4 opacity-70">&ldquo;빠르게 변화하는 세상을 두려워하기보다는 변화하지 않는 나를 두려워하자.&rdquo;</p>
         </div>

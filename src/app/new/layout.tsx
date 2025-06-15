@@ -16,10 +16,8 @@ export default function NewLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className="scroll-smooth">
-      <body className={`${inter.className} min-h-screen`}>
-        {children}
-      </body>
-    </html>
+    <div className={`${inter.className} min-h-screen`}>
+      {children}
+    </div>
   );
 } 
