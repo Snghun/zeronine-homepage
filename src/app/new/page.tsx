@@ -1,7 +1,8 @@
-'use client';
+"use client";
+
 import { useEffect } from 'react';
 
-export default function Home() {
+export default function NewPage() {
   useEffect(() => {
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -14,6 +15,7 @@ export default function Home() {
         }
       });
     });
+
     // Scroll animations
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -25,9 +27,11 @@ export default function Home() {
       threshold: 0.1,
       rootMargin: '0px 0px -50px 0px'
     });
+
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
     });
+
     // Header background change on scroll
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
