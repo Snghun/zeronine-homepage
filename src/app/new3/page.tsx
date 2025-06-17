@@ -78,16 +78,6 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-10"></div>
         <div className="container mx-auto relative z-10 px-4">
           <div className="flex flex-col md:flex-row items-center justify-center max-w-4xl mx-auto md:translate-x-[-100px]">
-            <div className="md:ml-[200px] order-2 md:order-1">
-              <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/20 to-transparent blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                <img 
-                  src="/zeronine-homepage/jeremy-rifkin.jpg" 
-                  alt="Jeremy Rifkin" 
-                  className="rounded-full shadow-2xl w-full max-w-[180px] mx-auto object-cover aspect-square transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-gray-500/30"
-                />
-              </div>
-            </div>
             <div className="flex-1 order-1 md:order-2 text-center">
               <h1 className="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg text-white animate-on-scroll opacity-0 translate-y-4">0.9%</h1>
               <div className="text-2xl md:text-3xl mb-8 opacity-90 text-gray-300 animate-on-scroll opacity-0 translate-y-4">주식회사 영점구퍼센트</div>
@@ -97,6 +87,18 @@ export default function Home() {
                   <span className="text-base not-italic text-gray-500">- Jeremy Rifkin</span>
                 </div>
               </div>
+            </div>
+            <div className="order-2 md:order-1">
+              <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/20 to-transparent blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                <img 
+                  src="/zeronine-homepage/jeremy-rifkin.jpg" 
+                  alt="Jeremy Rifkin" 
+                  className="rounded-full shadow-2xl w-full max-w-[180px] mx-auto object-cover aspect-square transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-gray-500/30"
+                />
+              </div>
+            </div>
+            <div className="w-full order-3 text-center">
               <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg mt-8 animate-on-scroll opacity-0 translate-y-4">더 알아보기</a>
             </div>
           </div>
