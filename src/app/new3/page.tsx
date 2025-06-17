@@ -78,32 +78,36 @@ export default function Home() {
       <section id="home" className="hero flex items-center justify-center min-h-screen bg-black relative pt-24 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-10"></div>
         <div className="container mx-auto relative z-10 px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto md:translate-x-[10%]">
-            <div className="order-1 md:order-1 mb-8 md:mb-0">
-              <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/20 to-transparent blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-                <div className="relative w-[180px] h-[180px]">
-                  <Image
-                    src="/zeronine-homepage/jeremy-rifkin.jpg"
-                    alt="Jeremy Rifkin"
-                    fill
-                    className="rounded-full object-cover transform transition-all duration-500 group-hover:scale-105"
-                    priority
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="flex-1 order-2 md:order-2 text-center md:text-left md:ml-16 md:max-w-2xl">
+          <div className="flex flex-col items-center justify-center max-w-6xl mx-auto">
+            <div className="w-full text-center mb-12">
               <h1 className="text-5xl md:text-7xl font-extrabold mb-6 drop-shadow-lg text-white animate-on-scroll opacity-0 translate-y-4">0.9%</h1>
-              <div className="text-2xl md:text-3xl mb-10 opacity-90 text-gray-300 animate-on-scroll opacity-0 translate-y-4">주식회사 영점구퍼센트</div>
-              <div className="flex items-center justify-center md:justify-start animate-on-scroll opacity-0 translate-y-4">
-                <div className="text-lg md:text-xl italic leading-relaxed opacity-90 text-gray-400">
-                  &ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다&rdquo;<br />
-                  <span className="text-base not-italic text-gray-500">- Jeremy Rifkin</span>
+              <div className="text-2xl md:text-3xl opacity-90 text-gray-300 animate-on-scroll opacity-0 translate-y-4">주식회사 영점구퍼센트</div>
+            </div>
+            <div className="flex flex-col md:flex-row items-center justify-center w-full md:translate-x-[10%]">
+              <div className="order-2 md:order-1 mb-8 md:mb-0">
+                <div className="relative group">
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/20 to-transparent blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+                  <div className="relative w-[180px] h-[180px]">
+                    <Image
+                      src="/jeremy-rifkin.jpg"
+                      alt="Jeremy Rifkin"
+                      fill
+                      className="rounded-full object-cover transform transition-all duration-500 group-hover:scale-105"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="text-center md:text-left mt-12">
-                <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg animate-on-scroll opacity-0 translate-y-4">더 알아보기</a>
+              <div className="flex-1 order-3 md:order-2 text-center md:text-left md:ml-16 md:max-w-2xl">
+                <div className="flex items-center justify-center md:justify-start animate-on-scroll opacity-0 translate-y-4">
+                  <div className="text-lg md:text-xl italic leading-relaxed opacity-90 text-gray-400">
+                    &ldquo;인간의 역사는 0.1%의 창의적인 인간과<br />0.9%의 통찰적인 인간이 이끌어왔다&rdquo;<br />
+                    <span className="text-base not-italic text-gray-500">- Jeremy Rifkin</span>
+                  </div>
+                </div>
+                <div className="text-center md:text-left mt-12">
+                  <a href="#about" className="inline-block bg-white/20 border-2 border-white/30 text-white px-8 py-3 rounded-full font-semibold backdrop-blur-md hover:bg-white/30 transition-all duration-300 shadow-lg animate-on-scroll opacity-0 translate-y-4">더 알아보기</a>
+                </div>
               </div>
             </div>
           </div>
