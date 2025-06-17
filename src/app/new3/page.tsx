@@ -84,7 +84,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-800/20 to-transparent blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                 <div className="relative w-[180px] h-[180px]">
                   <Image
-                    src="/jeremy-rifkin.jpg"
+                    src="/zeronine-homepage/jeremy-rifkin.jpg"
                     alt="Jeremy Rifkin"
                     fill
                     className="rounded-full object-cover transform transition-all duration-500 group-hover:scale-105"
