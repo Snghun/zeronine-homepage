@@ -3,9 +3,15 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
-  basePath: '/zeronine-homepage',
-  assetPrefix: '/zeronine-homepage/',
+  basePath: process.env.NODE_ENV === 'production' ? '/zeronine-homepage' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/zeronine-homepage/' : '',
   trailingSlash: true,
 };
 
